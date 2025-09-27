@@ -7,8 +7,7 @@ int find_a(int n) {
     while(pow(2, a) <= n) {
         a++;
     }
-    a = a-1;
-    return a;
+    return a - 1;
 }
 
 int find_l(int n) {
@@ -17,7 +16,6 @@ int find_l(int n) {
     }
     return n - pow(2, find_a(n));
 }
-
 
 int josephus_solution(int n) {
     if(find_l(n) == 0 || n == 1) {
