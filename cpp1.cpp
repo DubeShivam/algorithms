@@ -117,9 +117,9 @@ void f1() {
             break;
     }
 
-    true? cout << 'True': cout << 'False';
+    true? cout << "True": cout << "False";
 
-    cout << (true? 'True': 'False');
+    cout << (true? "True": "False");
 }
 
 void f2() {
@@ -139,8 +139,37 @@ void f2() {
 }
 
 
+// Pointers 
+// It stores address of variable
+
+int f_pointers() {
+    int a = 10;
+    int* p = &a;
+
+    cout<< a << " " << *p << " " << &a << " " << p;
+}
+
+
+
+// Arrays
+
+int arr1[3] = {1, 2, 3};
+int arr2[3][3] = {{1, 2, 3},{4, 5, 6}, {7, 8, 9}};
+
+
+
+
+
+
+// Standard template library
+// Containers Iterators Algorithms Functors
+
+
+
 
 
 int main() {
+
+    f_pointers();
     return 0;
 }
