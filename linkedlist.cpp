@@ -1,3 +1,7 @@
+// TYPES OF LINKED LISTS
+// SINGLY // DOUBLY // CIRCULAR
+
+
 #include <iostream>
 using namespace std;
 
